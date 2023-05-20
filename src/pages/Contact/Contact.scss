@@ -1,0 +1,141 @@
+.contact {
+  background-color: var(--background);
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  .contact-info {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #ffffff56;
+    box-shadow: 0px 0px 5px #fff;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    input,
+    textarea {
+      width: 50%;
+      border: none;
+      outline: none;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    input {
+      margin-bottom: 1.5rem;
+    }
+
+    textarea {
+      margin-bottom: 1.5rem;
+    }
+
+    button {
+      &::after {
+        content: "";
+        position: absolute;
+        width: 0;
+      }
+
+      background-color: rgb(243, 11, 23);
+      border: 0;
+      padding: 15px 13px;
+      margin-top: 15px;
+      color: #fff;
+      font-size: 15px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      box-shadow: 0px 0px 5px rgb(199, 72, 100);
+      border-top-right-radius: 15px;
+      border-bottom-left-radius: 15px;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+      position: relative;
+      &:hover {
+        opacity: 0.8;
+        box-shadow: 0px 0px 15px rgb(199, 72, 100);
+        &::after {
+          content: "";
+          position: absolute;
+          left: 15px;
+          bottom: 0;
+          width: 100%;
+          height: 5px;
+          background-color: #fff;
+          left: 0;
+          margin-top: 10px;
+          transition: all 0.3s ease-in-out;
+        }
+      }
+
+      &:active {
+        transform: scale(0.98) !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    background-color: var(--background);
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      background-color: #ffffff56;
+      box-shadow: 0px 0px 5px #fff;
+      gap: 10px;
+      height: 35%;
+
+      p {
+        width: 70%;
+      }
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+      input,
+      textarea {
+        width: 50%;
+        border: none;
+        outline: none;
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      input {
+        margin-bottom: 1.5rem;
+      }
+
+      textarea {
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+}
