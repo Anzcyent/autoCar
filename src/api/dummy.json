@@ -84,17 +84,17 @@
     {
       "id": 1,
       "name": "ABC Corporation",
-      "logo": "src/assets/partner1.png"
+      "logo": "dist/assets/partner1.png"
     },
     {
       "id": 2,
       "name": "XYZ Enterprises",
-      "logo": "src/assets/partner2.png"
+      "logo": "dist/assets/partner2.png"
     },
     {
       "id": 3,
       "name": "Global Automotive Solutions",
-      "logo": "src/assets/partner3.png"
+      "logo": "dist/assets/partner3.png"
     }
   ]
 }
