@@ -6,7 +6,7 @@
       "model": "X5",
       "year": 2021,
       "price": 80000,
-      "image": "src/assets/bmw.png",
+      "image": "/assets/bmw.png",
       "description": "Experience the ultimate combination of luxury and versatility with the BMW X5. This powerful and stylish SUV offers cutting-edge technology, exceptional comfort, and thrilling performance. With its spacious interior and advanced safety features, the BMW X5 is the perfect companion for all your adventures."
     },
     {
@@ -15,7 +15,7 @@
       "model": "E-Class",
       "year": 2022,
       "price": 75000,
-      "image": "src/assets/mercedes.png",
+      "image": "/assets/mercedes.png",
       "description": "Indulge in the timeless elegance and unmatched sophistication of the Mercedes-Benz E-Class. This iconic luxury sedan sets new standards with its exquisite design, advanced technology, and refined driving experience. With its powerful engine options and state-of-the-art features, the E-Class offers a perfect blend of style and performance."
     },
     {
@@ -24,7 +24,7 @@
       "model": "A4",
       "year": 2020,
       "price": 60000,
-      "image": "src/assets/audi.png",
+      "image": "/assets/audi.png",
       "description": "Discover the epitome of sporty elegance with the Audi A4. This compact luxury sedan boasts a sleek design, precise handling, and a luxurious interior. Equipped with innovative technology and impressive performance, the A4 delivers an exhilarating driving experience that will ignite your passion for the road."
     },
     {
@@ -33,7 +33,7 @@
       "model": "Huracan",
       "year": 2023,
       "price": 300000,
-      "image": "src/assets/lamborghini.png",
+      "image": "/assets/lamborghini.png",
       "description": "Unleash your inner thrill-seeker with the Lamborghini Huracan. This iconic supercar combines breathtaking design, blistering speed, and unrivaled performance. From its roaring engine to its aerodynamic curves, every aspect of the Huracan exudes pure adrenaline. Prepare to turn heads and leave a lasting impression wherever you go."
     },
     {
@@ -42,7 +42,7 @@
       "model": "911",
       "year": 2021,
       "price": 120000,
-      "image": "src/assets/porsche.png",
+      "image": "/assets/porsche.png",
       "description": "Experience the legendary excellence of the Porsche 911. With its timeless design, unmatched performance, and precision engineering, the 911 has become an icon of the sports car world. From its powerful engine options to its agile handling, the 911 delivers an exhilarating driving experience that is second to none."
     }
   ],
@@ -52,31 +52,31 @@
       "id": 1,
       "title": "Maintenance and Repair",
       "description": "Our expert technicians provide meticulous maintenance and repair services to keep your vehicle in optimal condition.",
-      "image": "src/assets/maintenance.png"
+      "image": "/assets/maintenance.png"
     },
     {
       "id": 2,
       "title": "Customization",
       "description": "Personalize your vehicle with our customization services, including color options, interior modifications, and special wheel designs.",
-      "image": "src/assets/customization.png"
+      "image": "/assets/customization.png"
     },
     {
       "id": 3,
       "title": "Financing Options",
       "description": "We offer flexible financing options to make your car purchase convenient and affordable, including credit facilities and leasing plans.",
-      "image": "src/assets/financing.png"
+      "image": "/assets/financing.png"
     },
     {
       "id": 4,
       "title": "Trade-In Services",
       "description": "Easily trade in your old vehicle when purchasing a new one with our hassle-free trade-in services, ensuring a smooth transition.",
-      "image": "src/assets/trade-in.png"
+      "image": "/assets/trade-in.png"
     },
     {
       "id": 5,
       "title": "Vehicle Detailing",
       "description": "Enhance the appearance of your vehicle with our comprehensive detailing services, including exterior cleaning, polishing, and paint protection.",
-      "image": "src/assets/detailing.png"
+      "image": "/assets/detailing.png"
     }
   ],
 
@@ -84,17 +84,17 @@
     {
       "id": 1,
       "name": "ABC Corporation",
-      "logo": "dist/assets/partner1.png"
+      "logo": "/assets/partner1.png"
     },
     {
       "id": 2,
       "name": "XYZ Enterprises",
-      "logo": "dist/assets/partner2.png"
+      "logo": "/assets/partner2.png"
     },
     {
       "id": 3,
       "name": "Global Automotive Solutions",
-      "logo": "dist/assets/partner3.png"
+      "logo": "/assets/partner3.png"
     }
   ]
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.scss";
 
-import carImage from "../../assets/home-car.png";
+import carImage from "/assets/home-car.png";
 
 import { useNavigate } from "react-router-dom";
 
