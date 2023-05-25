@@ -8,7 +8,9 @@ const Navbar = () => {
     <nav>
       <div className="container">
         <div className="logo-area">
-          <h1>AutoCar</h1>
+          <h1>
+            <Link to="/" style={{textDecoration: "none", color:"#fff"}}>AutoCar</Link>
+          </h1>
         </div>
 
         <ul className="menu">

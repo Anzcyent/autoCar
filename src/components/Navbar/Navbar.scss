@@ -11,6 +11,10 @@ nav {
 
     .logo-area {
       cursor: pointer;
+
+      &:hover {
+        opacity: .8;
+      }
     }
 
     .menu {
